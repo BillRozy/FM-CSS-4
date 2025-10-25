@@ -1,0 +1,42 @@
+{
+  "name": "css-bookmark-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://billrozy.github.io/FM-CSS-1/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "clsx": "^2.1.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-error-boundary": "^6.0.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-variants": "^3.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@tailwindcss/cli": "^4.1.15",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "@vitejs/plugin-react": "^5.0.3",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7",
+    "vite-plugin-svgr": "^4.5.0"
+  }
+}
